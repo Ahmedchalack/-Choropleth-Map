@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+   text-align: center;
+   margin: 5px;
+}
+h1{
+    font-size: 45px; 
+}
+p{
+    margin: 20px;
+    font-weight: 100;
+    font-size: 15px;
+}
+div .tooltip{
+    position: absolute;
+    border: none;
+    border-radius: 20px;
+    pointer-events: none;
+    padding: 10px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+}
+#legend{
+    margin: 20px;
+}
+
+#tooltip{
+    pointer-events: none;
+    border: none;
+    border-radius: 10px;
+    font: 12px sans-serif;
+    padding: 10px;
+    background-color: #ccff80;
+    position: absolute;
+}
